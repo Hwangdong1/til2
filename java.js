@@ -74,3 +74,16 @@ if (isNaN(age) || age < 0) {
   console.log("you are too old to drink ");
 }
 
+const calculators = {
+    add: function (a,b) {
+       alert(a+b);
+    },
+    minus: function (a,b) {git
+            alert(a-b)
+        },
+    powerof: function (a,b) {
+        alert(a**b)
+    }
+    
+}
+
