@@ -87,3 +87,25 @@ const calculators = {
     
 }
 
+//function 
+function showError(){
+    alert('에러가 발생햇습니다, 다시 시도해라')
+}
+
+showError()
+
+//매개변수가 있는 함수
+
+function sayHello(name){
+    const msg = 'Hello, ${name}'
+}
+
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+    return ageOfForeigner + 2;
+}
+
+const KrAge = calculateKrAge(age);
+
+console.log( ````
+
