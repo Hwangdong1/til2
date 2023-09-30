@@ -46,7 +46,7 @@ for(let i = 0; i<10; i++){
 }//2의 배수찍는 문장
 
 //switch문
-let fruit = prompt('티켓을 고르시오')
+let ticket = prompt('티켓을 고르시오')
 
 switch (ticket){
     case '스탠딩 sr석';
@@ -71,7 +71,7 @@ if (isNaN(age) || age < 0) {
 } else if (age >= 18 && age <= 50) {
   console.log("you can drink");
 } else if (age > 50) {
-  console.log("you are too old to drink ");
+  console.log("you are too old ho fp to drink ");
 }
 
 const calculators = {
@@ -107,5 +107,8 @@ function calculateKrAge(ageOfForeigner) {
 
 const KrAge = calculateKrAge(age);
 
-console.log( ````
+console.log()
+
+
+
 
