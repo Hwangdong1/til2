@@ -110,5 +110,16 @@ const KrAge = calculateKrAge(age);
 console.log()
 
 
+//함수 작성
+//매개변수가 있는 함수
+
+function sayHello(name){
+    let msg ='Hello';
+    if(name){
+        msg = 'Hello, ${name}';
+    }
+    console.log(msg);
+}
+sayHello();
 
 
