@@ -122,4 +122,11 @@ function sayHello(name){
 }
 sayHello();
 
-
+    
+//continue
+for(let i = 0; i<10; i++){
+    if(i%2){
+        continue;
+    }
+    console.log(i)
+}//2의 배수찍는 문장
