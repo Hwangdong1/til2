@@ -50,13 +50,13 @@ let ticket = prompt('티켓을 고르시오')
 
 switch (ticket){
     case '스탠딩 sr석';
-     console.log ('200000');
+     console.log ('495000');
      break;
     case '스탠딩 a석';
-     console.log ('170000');
+     console.log ('5855000');
      break;
     case '스탠딩 b석';
-    console.log ('150000');
+    console.log ('450000');
     break;
     default ;
     console.log('')
