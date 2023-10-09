@@ -21,3 +21,14 @@ function sayHello(name) {
 }
 
 sayHello();
+
+//
+
+function sayHello(name){
+    let newName = name || 'friend';
+    let msg += 'Hello, ${name}'
+    console.log(msg)
+}
+
+sayHello();
+sayHello('Jane');
