@@ -22,7 +22,7 @@ function sayHello(name) {
 
 sayHello();
 
-//
+
 
 function sayHello(name){
     let newName = name || 'friend';
@@ -32,3 +32,32 @@ function sayHello(name){
 
 sayHello();
 sayHello('Jane');
+
+// return 으로 값 반환 
+
+function add (num1, num2){
+    return num1 + num2;
+}
+
+const result = add(2,3);
+console.log(result)
+
+//함수 선언문 vs 함수 표현식
+
+function sayHello(){
+    console.log('Hello');
+}
+
+//표현식
+let sayHello =function(){
+    console.log('Hello');
+}
+sayHello();
+
+//화살표 함수 (arrow function)
+
+let add = function(num1, num2){
+    return num1+ num2;
+}
+// let add =(num1,num2)=> num1 + num2;
+// let sayHello = name => `Hello, &{name}`;
