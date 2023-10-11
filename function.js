@@ -61,3 +61,94 @@ let add = function(num1, num2){
 }
 // let add =(num1,num2)=> num1 + num2;
 // let sayHello = name => `Hello, &{name}`;
+
+function makeObject(name, age){
+    return{
+        name,
+        age,
+        hobby:"football"
+    }
+}
+
+const Mike = makeObject(Mike, 30)
+
+// 
+function isAdult(user){
+    if (!('age' in user) || user.age < 20){
+        return false
+    }
+    return true
+}
+const Jenny ={
+    name : Jenny
+    age: 30
+}
+console.log(isAdult(Jenny))
+
+//객체 for... in 문
+const Yun ={
+    name: "Yun",
+    agme: 28
+}
+
+for(key in Yun){
+    console.log(Yun[key])
+    //console.log(key)??
+}
+ 
+//
+
+const user ={
+    name: "Mike",
+    sayHello : function(){
+        console.log('Hello , im ${this.name}')
+    }
+} 
+
+let boy = {
+    name: "Mike",
+    showName: function(){
+        console.log (boy.name)//(this.name)
+    }
+}
+
+let man = boy
+boy = null
+
+man.showName()// ?
+
+
+
+
+////배열 (Array)////
+
+const students = [
+    "Mike","Jun","Hwang","Donghyun"
+]
+
+students.length // 요소의 개수 반환
+
+//push() -> 배열 끝에 추가 
+let days =['월','화','수']
+days.push('목')
+//pop() -> 배열 끝 요소 제거
+
+//shift , unshift -> 배열 앞에 제거/ 추가
+//추가 
+days.unshift()
+//제거
+days.shift()
+
+//반복문: for
+
+let days =['월','화','수']
+
+for(let index = 0; index< days.length; index++){
+    
+}
+
+//for .. of
+
+for(let day of days){
+    console.log(day)
+}
