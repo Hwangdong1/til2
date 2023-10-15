@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.status-bar {
+  background-color: aquamarine;
+  padding: 120px;
+  text-align: left;
+  color: black;
+  font-size: 28px;
+  padding: 40px;
+}
+
+.nav {
+  position: sticky;
+  background-color: lightgray;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  display: flex;
+  font-size: 25px;
+  border: 2px solid gray;
+}
+
+.nav_plan,
+.nav_making {
+  margin-right: 30px;
+  color: white;
+}
+
+.nav_me {
+  margin-right: 30px;
+  background-color: azure;
+  color: black;
+}
+
+.container {
+  margin-top: 50px;
+  border-bottom: 3px solid gray;
+  display: flex;
+  margin-top: 0px;
+}
+
+.container_text {
+  text-align: left;
+  font-size: 40px;
+}
+
+.container_text p {
+  font-size: 30px;
+}
+
+.hdh {
+  background-color: antiquewhite;
+  font-weight: 39;
+  quotes: none;
+}

@@ -8,9 +8,10 @@ while(true){
 //반복문 
 //for문
 
-for (let i =0; i<10; i++){
+for (const i =0; i<10; i++){
     //  반복코드
 }
+
 
 //while 문
 let i =0
