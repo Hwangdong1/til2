@@ -97,12 +97,12 @@ showError()
 
 //매개변수가 있는 함수
 
-function sayHello(name){
+function sayHelloto(name){
     const msg = 'Hello, ${name}'
 }
 
 const age = 96;
-function calculateKrAge(ageOfForeigner) {
+function calculateKrAge(ageOdsdsdfForeigner) {
     return ageOfForeigner + 2;
 }
 
@@ -117,7 +117,7 @@ console.log()
 function sayHello(name){
     let msg ='Hello';
     if(name){
-        msg = 'Hello, ${name}';
+        msg = 'Hello, ${myname}';
     }
     console.log(msg);
 }
@@ -131,3 +131,21 @@ for(let i = 0; i<10; i++){
     }
     console.log(i)
 }//2의 배수찍는 문장
+
+//break
+
+while(true){
+    answer = confirm("");
+    if(!answer){
+        break;
+     }
+    }
+    
+    //continue
+    for(let i = 0; i<10; i++){
+        if(i%2){
+            continue;
+        }
+        console.log(i)
+    }//2의 배수찍는 문장
+
