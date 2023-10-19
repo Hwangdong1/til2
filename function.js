@@ -70,7 +70,7 @@ function makeObject(name, age){
     }
 }
 
-const Mike = makeObject(Mike, 30)
+const Mike = makeObjects(Mike, 30)
 
 // 
 function isAdult(user){
@@ -141,7 +141,7 @@ days.shift()
 
 //반복문: for
 
-let days =['월','화','수']
+let days =['월','화','수','목','금']
 
 for(let index = 0; index< days.length; index++){
     
