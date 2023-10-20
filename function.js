@@ -66,7 +66,7 @@ function makeObject(name, age){
     return{
         name,
         age,
-        hobby:"football"
+        hobby:"baseball"
     }
 }
 
