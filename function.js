@@ -62,11 +62,11 @@ let add = function(num1, num2){
 // let add =(num1,num2)=> num1 + num2;
 // let sayHello = name => `Hello, &{name}`;
 
-function makeObject(name, age){
+function makeClass(name, age){
     return{
         name,
         age,
-        hobby:"baseball"
+        hobby:"class"
     }
 }
 
